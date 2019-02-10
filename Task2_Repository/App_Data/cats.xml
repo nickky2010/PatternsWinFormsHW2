@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cats>
+  <cat id="1">
+    <name>Catty(XML)</name>
+    <weight>6,5</weight>
+  </cat>
+  <cat id="2">
+    <name>Olli</name>
+    <weight>4,6</weight>
+  </cat>
+  <cat id="3">
+    <name>Tom</name>
+    <weight>10,9</weight>
+  </cat>
+  <cat id="4">
+    <name>Jerry</name>
+    <weight>7,2</weight>
+  </cat>
+  <cat id="5">
+    <name>Messi</name>
+    <weight>8,5</weight>
+  </cat>
+</cats>

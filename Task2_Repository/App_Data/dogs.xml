@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dogs>
+  <dog id="1">
+    <name>Nessy(XML)</name>
+    <age>12</age>
+  </dog>
+  <dog id="2">
+    <name>Bredly</name>
+    <age>2</age>
+  </dog>
+  <dog id="3">
+    <name>Pluto</name>
+    <age>20</age>
+  </dog>
+  <dog id="4">
+    <name>Gyffi</name>
+    <age>50</age>
+  </dog>
+  <dog id="5">
+    <name>Mikee</name>
+    <age>20</age>
+  </dog>
+</dogs>
