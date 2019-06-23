@@ -1,25 +1,24 @@
-# PatternsWinFormsHW2
-ITStep(Gomel)-Patterns WinForms Home work 2
+# Patterns HW 1 - Singleton+Proxy+Repository
+***
+## Task 1 `Singleton+Proxy Patterns`
 
-Task 1.
+Разработать систему классов, реализующую паттерны ***Одиночка*** и ***Заместитель***.
 
-Develop a class system that implements the Singleton and Alternate patterns.
 
-Class Head (RealSubject in the Proxy pattern). 
+Класс ***Начальник*** (`RealSubject`  в паттерне `Proxy`). Состав класса: свойства ***Имя*** и ***Премиальный фонд***, метод для создания приказов о назначении премии (параметры – имя премируемого работника, процент премии, результат – текст приказа). Начальник в системе должен быть только один.
 
-Composition of the class: 
-the Name and Bonus Fund properties, 
-the method for creating orders for awarding the award 
-(parameters - the name of the employee being rewarded, the percentage of the bonus, the result - the text of the order). 
-There should be only one boss in the system.
 
-The Secretary (Proxy) class must contain the Name property, 
-a method for creating orders for awarding a prize, in which the standard header, 
-the current date and the secretary’s signature are added to the order of the chief.
+Класс ***Секретарь*** (`Proxy`) должен содержать свойство ***Имя***, метод для создания приказов о назначении премии, в котором к приказу начальника добавляется стандартная шапка, текущая дата и подпись секретаря.
 
-In the client (in the Program class of the console application or in the Form class of the Windows Forms application), 
-you must enter the employee's last name and bonus percentage, after which an order issued by the secretary should be issued.
 
-Task 2.
+В клиенте (в классе `Program` консольного приложения или в классе `Form` приложения `Windows Forms`) нужно вводить фамилию работника и процент премии, после чего должен выдаваться оформленный секретарем приказ.
 
-Implement the Repository pattern in the application that manages the information about the patients of the veterinary clinic. As a data warehouse use a database, xml-document, a collection of objects in memory, a text file in csv format. Create implementations for Dog and Cat objects.
+
+***
+## Task 2 `Repository Pattern`
+
+Реализовать паттерн ***Репозиторий*** в приложении, управляющем информацией о пациентах  ветеринарной клиники. В качестве хранилищ данных использовать базу данных, `xml`-документ, коллекцию объектов в памяти, текстовый файл в формате `csv`. Создать реализации для объектов `Dog` и `Cat`.
+
+Вид приложения после запуска:
+
+![Alt text](/Task/Image/1.PNG?raw=true "Вид приложения после запуска")
